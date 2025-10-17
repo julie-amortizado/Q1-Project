@@ -1,0 +1,272 @@
+body{
+  font-family: Poppins;
+  margin: 0;
+  color: black;
+  background-image: url(https://cdn.discordapp.com/attachments/1401472171167059978/1424974672898031648/ict_background_00000.png?ex=68e5e694&is=68e49514&hm=dd4bb60d5a8139a21ebfceb445ef7cce16c398779016dfad7f9627c33ba7a0c4&);
+  background-size: cover;
+  background-repeat: no repeat;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 120;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 80px; 
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  transition: 0.3s ease;
+}
+
+.navbar a:hover {
+  transform: scale(1.07);
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.main img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+}
+
+.main h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  margin-bottom: 0px;
+  transition: 0.3s ease;
+}
+
+.main h1:hover{
+  transform: translateY(-2px);
+}
+
+.main h2{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fffacc;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.main h1, h2{
+  width: 100%;
+  text-align: left;
+  max-width: 500px;
+}
+
+.main p{
+  max-width: 550px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.socials{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  padding: 10px;
+}
+
+.socials a{
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.socials a:hover{
+  color: #fff7b0;
+  transform: scale(1.07);
+}
+
+hr{
+  margin-top: 50px;
+  width: 40%;
+  height: 2px;
+  border: none;
+  background: linear-gradient(to right, #5e5856, white, #5e5856);
+  margin-bottom: 30px;
+}
+
+.works{
+  margin-top: 50px;
+}
+
+.works h1{
+  text-align: center;
+  color: #f5f3f0;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+  transition: 0.3s ease;
+}
+
+.works h1:hover{
+  color: #fff7b0;
+  transform: scale(1.07);
+}
+
+.works a{
+  margin-top: 8px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  transition: 0.3s ease;
+}
+
+.works a:hover{
+  color: #c9e8ff;
+  transform: scale(1.07);
+}
+
+.works p{
+  margin-top: 0;
+  color: #f0d3a8;
+  font-size: 12px;
+}
+
+.imagecontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 25px;
+  text-align: center; 
+  display: flex; 
+  align-items: center;
+  position: relative;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 130px;
+  border-radius: 40px;
+}
+
+.image1{
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid white;
+ }
+
+.image2{
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid white;
+ }
+
+.image3 {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid white;
+ }
+
+.item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+
+.contact {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  flex-direction: column;  
+  height: 100vh;       
+}
+
+form{
+  background: rgba(255, 255, 255, 0.15);
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 650px;
+}
+
+label{
+  color: white;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+input, textarea {
+  width: 400px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-family: Poppins;
+  outline: none;
+}
+
+textarea{
+  padding: 15px 20px;
+  width: 500px;
+  height: 100px;
+}
+
+input[type="submit"]{
+  color: #429ef5;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background: #0056b3;
+}
